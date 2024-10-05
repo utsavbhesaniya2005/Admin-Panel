@@ -1,0 +1,1616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gogo React - React Admin Template</title>
+
+    <!-- Font -->
+    <link rel="stylesheet" href="./assets/css/font.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/images/logo/favicon.ico" type="image/x-icon">
+
+    <!-- Calender -->
+     <link rel="stylesheet" href="./assets/css/calender.css">
+
+    <!-- Css -->
+    <link rel="stylesheet" id="colorChange" href="./assets/css/style.css">
+
+    <!-- Media Css -->
+    <link rel="stylesheet" href="./assets/css/media.css">
+
+</head>
+
+<!-- https://gogo-react.coloredstrategies.com/app/dashboards/ecommerce -->
+
+<body>
+    <div class="wizard-setting">
+        <a href="#">
+            <i class="fa-solid fa-wand-sparkles"></i>
+        </a>
+    </div>
+    <div class="theme-colors">
+        <div class="change-color">
+            <p>Light Theme</p>
+            <div class="colors">
+                <a href="#" class="bluenavy">
+                    <span></span>
+                </a>
+                <a href="#" class="blueyale">
+                    <span></span>
+                </a>
+                <a href="#" class="blueolympic">
+                    <span></span>
+                </a>
+                <a href="#" class="greenmoss">
+                    <span></span>
+                </a>
+                <a href="#" class="greenlime">
+                    <span></span>
+                </a>
+            </div>
+            <div class="colors">
+                <a href="javascript:void(0);" class="purplemonster" id="prp" data-path="./assets/css/style.css">
+                    <span></span>
+                </a>
+                <a href="#" class="orangecarrot">
+                    <span></span>
+                </a>
+                <a href="#" class="redruby">
+                    <span></span>
+                </a>
+                <a href="#" class="yellowgranola">
+                    <span></span>
+                </a>
+                <a href="#" class="greysteel">
+                    <span></span>
+                </a>
+            </div>  
+        </div>
+        <div class="change-color">
+            <p>Dark Theme</p>
+            <div class="colors">
+                <a href="#" class="bluenavy">
+                    <span></span>
+                </a>
+                <a href="#" class="blueyale">
+                    <span></span>
+                </a>
+                <a href="#" class="blueolympic">
+                    <span></span>
+                </a>
+                <a href="#" class="greenmoss">
+                    <span></span>
+                </a>
+                <a href="#" class="greenlime">
+                    <span></span>
+                </a>
+            </div>
+            <div class="colors">
+                <a href="javascript:void(0);" class="dark-purplemonster" data-path="./assets/css/dark.css">
+                    <span></span>
+                </a>
+                <a href="#" class="orangecarrot">
+                    <span></span>
+                </a>
+                <a href="#" class="redruby">
+                    <span></span>
+                </a>
+                <a href="#" class="yellowgranola">
+                    <span></span>
+                </a>
+                <a href="#" class="greysteel">
+                    <span></span>
+                </a>
+            </div>  
+        </div>
+    </div>
+    <div class="page-wrapper">
+        <header>
+            <div class="row items-center justify-between">
+                <div class="navbar-left">
+                    <div class="toggle-menu">
+                        <a href="javascript:void(0);">
+                            <svg class="main" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 17">
+                                <rect x="0.48" y="0.5" width="7" height="1"></rect>
+                                <rect x="0.48" y="7.5" width="7" height="1"></rect>
+                                <rect x="0.48" y="15.5" width="7" height="1"></rect>
+                            </svg>
+
+                            <svg class="sub" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 17">
+                                <rect x="1.56" y="0.5" width="16" height="1"></rect>
+                                <rect x="1.56" y="7.5" width="16" height="1"></rect>
+                                <rect x="1.56" y="15.5" width="16" height="1"></rect>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search">
+                        
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                    </div>
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="lan">
+                        <a href="javascript:void(0);">
+                            <span>EN</span>
+                        </a>
+                        <nav>
+                            <ul>
+                                <li class="dropdown">
+                                    <a href="index.html">English - LTR</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="index.html">Español</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="index.html">English - RTL</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="buy">
+                        <a href="https://themeforest.net/cart/configure_before_adding/22544383?license=regular&irgwc=1&clickid=VJM0kU21bxyKRudUFv3RSwwXUkHXVZVBqSOl2A0&iradid=275988&irpid=1324459&iradtype=ONLINE_TRACKING_LINK&irmptype=mediapartner&mp_value1=&utm_campaign=af_impact_radius_1324459&utm_medium=affiliate&utm_source=impact_radius">buy</a>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href="javascript:void(0);">
+                        <img src="./assets/images/logo/logo.png" alt="Logo" class="logo-main">
+                        <img src="./assets/images/logo/logo.svg" alt="Logo" class="logo-sm">
+                    </a>
+                </div>
+                <div class="navbar-right">
+                    <a href="javascript:void(0);">
+                        <input type="checkbox" id="switch">
+                        <label for="switch">Toggle</label>
+                    </a>
+                    <div class="icons">
+                        <div class="grid">
+                            <a href="javascript:void(0);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 22 22"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-grid">
+                                    <rect x="3" y="3" width="7" height="7"></rect>
+                                    <rect x="14" y="3" width="7" height="7"></rect>
+                                    <rect x="14" y="14" width="7" height="7"></rect>
+                                    <rect x="3" y="14" width="7" height="7"></rect>
+                                </svg>
+                            </a>
+                            <nav>
+                                <ul>
+                                    <li class="dropdown">
+                                        <a href="index.html">
+                                            <i class="fa-solid fa-store"></i>
+                                            <span>Dashboards</span>
+                                        </a>
+                                        <a href="index.html">
+                                            <i class="fa-solid fa-paperclip"></i><br>
+                                            <span>UI</span>
+                                        </a>
+                                        <a href="index.html">
+                                            <i class="fa-solid fa-chart-simple"></i>
+                                            <span>Charts</span>
+                                        </a>
+                                        <a href="index.html">
+                                            <i class="fa-regular fa-comment"></i><br>
+                                            <span>Chat</span>
+                                        </a>
+                                        <a href="index.html">
+                                            <i class="fa-solid fa-chart-line"></i>
+                                            <span>Survey</span>
+                                        </a>
+                                        <a href="index.html">
+                                            <i class="fa-solid fa-list-check"></i><br>
+                                            <span>To-do List</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="notification">
+                            <a href="javascript:void(0);">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-bell">
+                                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                </svg>
+                                <span>3</span>
+                            </a>
+                            <nav>
+                                <ul>
+                                    <li class="dropdown">
+                                        <a href="index.html">
+                                            <div class="user-list">
+                                                <div class="user-img">
+                                                    <a href="#">
+                                                        <img src="./assets/images/product/comment.png" alt="User Image">
+                                                    </a>
+                                                </div>
+                                                <div class="user-detail">
+                                                    <a href="#">
+                                                        <p>Joisse Kaycee just sent a new comment!</p>
+                                                        <p>09.04.2018 - 12:45</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="index.html">
+                                            <div class="user-list">
+                                                <div class="user-img">
+                                                    <a href="#">
+                                                        <img src="./assets/images/product/product-img-1.png" alt="Product Image">
+                                                    </a>
+                                                </div>
+                                                <div class="user-detail">
+                                                    <a href="#">
+                                                        <p>1 item is out of stock!</p>
+                                                        <p>09.04.2018 - 12:45</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="index.html">
+                                            <div class="user-list">
+                                                <div class="user-img">
+                                                    <a href="#">
+                                                        <img src="./assets/images/product/product-img-2.png" alt="Product Image">
+                                                    </a>
+                                                </div>
+                                                <div class="user-detail">
+                                                    <a href="#">
+                                                        <p>New order received! It is total $147,20.</p>
+                                                        <p>09.04.2018 - 12:45</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="index.html">
+                                            <div class="user-list">
+                                                <div class="user-img">
+                                                    <a href="#">
+                                                        <img src="./assets/images/product/product-img-3.png" alt="Product Image">
+                                                    </a>
+                                                </div>
+                                                <div class="user-detail">
+                                                    <a href="#">
+                                                        <p>3 items just added to wish list by a user!</p>
+                                                        <p>09.04.2018 - 12:45</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="fullscreen">
+                            <a href="javascript:void(0);" id="expand">
+                                <i class="fa-solid fa-expand"></i>
+                                <i class="fa-solid fa-minimize"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <a href="javascript:void(0);">
+                            <span>Sarah Kortney</span>
+                            <img src="./assets/images/user-image/p-1.png" alt="Profile Photo">
+                        </a>
+                        <nav>
+                            <ul>
+                                <li class="dropdown">
+                                    <a href="index.html">Account</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="index.html">Features</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="index.html">History</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="index.html">Support</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="index.html">Sign out</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="page-body-wrapper">
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="menubar">
+                    <ul>
+                        <li class="dashboards show">
+                            <a href="#" class="dashboard">
+                                <i class="fa-solid fa-store"></i>
+                                <span>Dashboards</span>
+                            </a>
+                        </li>
+                        <li class="pages">
+                            <a href="#">
+                                <i class="fa-solid fa-desktop"></i>
+                                <span>Pages</span>
+                            </a>
+                        </li>
+                        <li class="apps">
+                            <a href="#">
+                                <i class="fa-solid fa-border-all"></i>
+                                <span>Applications</span>
+                            </a>
+                        </li>
+                        <li class="ui">
+                            <a href="#">
+                                <i class="fa-solid fa-paperclip"></i>
+                                <span>UI</span>
+                            </a>
+                        </li>
+                        <li class="menus">
+                            <a href="#">
+                                <i class="fa-solid fa-bars"></i>
+                                <span>Menu</span>
+                            </a>
+                        </li>
+                        <li class="blank-page">
+                            <a href="#">
+                                <i class="fa-regular fa-file"></i>
+                                <span>Blank Page</span>
+                            </a>
+                        </li>
+                        <li class="docs">
+                            <a href="#">
+                                <i class="fa-regular fa-file-lines"></i>
+                                <span>Docs</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sub-menubar">
+                    <ul class="dashboards-dropdown">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <span>Default</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-chart-pie"></i>
+                                <span>Analytics</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                <span>Ecommerce</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-regular fa-file"></i>
+                                <span>Content</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="pages-dropdown">
+                        <li class="authorization">
+                            <a href="#">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <span>Authorization</span>
+                            </a>
+                            <nav class="authorization-subdropdown">
+                                <ul>
+                                    <li>
+                                        <a href="./login.html">
+                                            <i class="fa-solid fa-user-check"></i>
+                                            <span>Login</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-user-plus"></i>
+                                            <span>Register</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-user-check"></i>
+                                            <span>Forgot Password</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-user-xmark"></i>
+                                            <span>Reset Password</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li class="product">
+                            <a href="#">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <span>Product</span>
+                            </a>
+                            <nav class="product-subdropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-rectangle-list"></i>
+                                            <span>Data List</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-list"></i>
+                                            <span>Thuumb List</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-border-all"></i>
+                                            <span>Image List</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-image"></i>
+                                            <span>Details</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-book-open"></i>
+                                            <span>Details Alt</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li class="profile1">
+                            <a href="#">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <span>Profile</span>
+                            </a>
+                            <nav class="profile1-subdropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            <span>Social</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-link"></i>
+                                            <span>Portfolio</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li class="blog">
+                            <a href="#">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <span>Blog</span>
+                            </a>
+                            <nav class="blog-subdropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-share-nodes"></i>
+                                            <span>Blog List</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-link"></i>
+                                            <span>Blog Detail</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li class="miscellaneous">
+                            <a href="#">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <span>Miscellaneous</span>
+                            </a>
+                            <nav class="miscellaneous-subdropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-circle-question"></i>
+                                            <span>Faq</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-graduation-cap"></i>
+                                            <span>Knowledge Base</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-gem"></i>
+                                            <span>Prices</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                            <span>Search</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-envelope-open"></i>
+                                            <span>Mailing</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-receipt"></i>
+                                            <span>Invoice</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-circle-exclamation"></i>
+                                            <span>Error</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
+                    </ul>
+                    <ul class="apps-dropdown">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>To-do List</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-calculator"></i>
+                                <span>Survey</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-regular fa-comments"></i>
+                                <span>Chat</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="ui-dropdown">
+                        <li class="forms">
+                            <a href="#">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <span>Forms</span>
+                            </a>
+                            <nav class="forms-subdropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-book"></i>
+                                            <span>Layouts</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-puzzle-piece"></i>
+                                            <span>Components</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-circle-check"></i>
+                                            <span>Validations</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-wand-sparkles"></i>
+                                            <span>Wizard</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
+                        <li class="components">
+                            <a href="#">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <span>Components</span>
+                            </a>
+                            <nav class="components-subdropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-bell"></i>
+                                            <span>Alerts</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-award"></i>
+                                            <span>Badges</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-play"></i>
+                                            <span>Buttons</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-layer-group"></i>
+                                            <span>Cards</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-image"></i>
+                                            <span>Carousel</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-chart-simple"></i>
+                                            <span>Charts</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-angle-up"></i>
+                                            <span>Collapse</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-angle-down"></i>
+                                            <span>Dropdowns</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-book-open"></i>
+                                            <span>Editors</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-star"></i>
+                                            <span>Icons</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-file-lines"></i>
+                                            <span>Input Groups</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-display"></i>
+                                            <span>Jumbotron</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-map"></i>
+                                            <span>Maps</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-regular fa-paste"></i>
+                                            <span>Model</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-location-arrow"></i>
+                                            <span>Navigation</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-thumbtack fa-rotate-by" style="--fa-rotate-angle: 50deg;"></i>
+                                            <span>Popover & Tooltip</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-shuffle"></i>
+                                            <span>Sortable</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-border-all"></i>
+                                            <span>Tables</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
+                    </ul>
+                    <ul class="menus-dropdown">
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-arrow-right-from-bracket fa-rotate-180"></i>
+                                <span>Menu Types</span>
+                            </a>
+                        </li>
+                        <li class="menus">
+                            <a href="#">
+                                <i class="fa-solid fa-angle-down"></i>
+                                <span>Menu Levels</span>
+                            </a>
+                            <nav class="menus-subdropdown">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                            <span>Third Level 1</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                            <span>Third Level 2</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-angle-right"></i>
+                                            <span>Third Level 3</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Page Body -->
+            <div class="page-body">
+                <div class="row row-gap-24">
+                    <div class="col-xxl-12 xol-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="menu">
+                            <div class="heading">
+                                <h1>Ecommerce</h1>
+                            </div>
+                            <ul>
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dashboards</a>
+                                </li>
+                                <li>
+                                    <a href="#">Ecommerce</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-6 col-xl-6 col-lg-12 col-12">
+                        <div class="row inner-row">
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-12">
+                                <div class="order-list">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p>Pending Orders</p>
+                                    <span>14</span>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-12">
+                                <div class="order-list">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                    <p>Completed Orders</p>
+                                    <span>32</span>
+                                </div>
+                            </div>
+                            <div class="col-xxl-4 col-xl-4 col-lg-4 col-12">
+                                <div class="order-list">
+                                    <i class="fa-solid fa-arrows-rotate"></i>
+                                    <p>Refund Requests</p>
+                                    <span>74</span>
+                                </div>
+                            </div>
+                            <!-- <div class="col-3">
+                                <div class="order-list">
+                                    <i class="fa-solid fa-envelope-open-text"></i>
+                                    <p>New Comments</p>
+                                    <span>25</span>
+                                </div>
+                            </div> -->
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="card-header">
+                                            <h3>Sales</h3>
+                                            <button>
+                                                <i class="fa-solid fa-rotate"></i>
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <div id="salesChart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-6 col-xl-6 col-lg-12 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Recent Orders</h3>
+                                <button>
+                                    <i class="fa-solid fa-rotate"></i>
+                                </button>
+                            </div>
+                            <div class="card-body">
+                                <div class="recent-order">
+                                    <div class="order">
+                                        <div class="order-img">
+                                            <a href="#">
+                                                <img src="./assets/images/card-img/cake.png" alt="Cake Image">
+                                                <span>on hold</span>
+                                            </a>
+                                        </div>
+                                        <div class="order-des">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Marble Cake</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Wedding cake with flowers Macarons and blueberries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">02.04.2018</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                    <div class="order">
+                                        <div class="order-img">
+                                            <a href="#">
+                                                <img src="./assets/images/card-img/fat-rascal-img.png" alt="fat-rascal Image">
+                                                <span style="background-color: #4556AC;">processed</span>
+                                            </a>
+                                        </div>
+                                        <div class="order-des">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Fat Rascal</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Cheesecake with chocolate cookies and Cream biscuits</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">01.04.2018</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                    <div class="order">
+                                        <div class="order-img">
+                                            <a href="#">
+                                                <img src="./assets/images/card-img/chocolate-cake-img.png" alt="chocolate-cake Image">
+                                                <span style="background-color: #4556AC;">processed</span>
+                                            </a>
+                                        </div>
+                                        <div class="order-des">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Chocolate Cake</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Homemade cheesecake with fresh berries and mint</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">25.03.2018</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                    <div class="order">
+                                        <div class="order-img">
+                                            <a href="#">
+                                                <img src="./assets/images/card-img/goose-breast-img.png" alt="goose-breast Image">
+                                                <span style="background-color: #4556AC;">processed</span>
+                                            </a>
+                                        </div>
+                                        <div class="order-des">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Goose Breast</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chocolate cake with berries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">21.03.2018</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                    <div class="order">
+                                        <div class="order-img">
+                                            <a href="#">
+                                                <img src="./assets/images/card-img/petit-gateau-img.png" alt="petit-gateau Image">
+                                                <span>on hold</span>
+                                            </a>
+                                        </div>
+                                        <div class="order-des">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Petit Gâteau</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Chocolate cake with mascarpone</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">02.06.2018</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+    
+                                    <div class="order">
+                                        <div class="order-img">
+                                            <a href="#">
+                                                <img src="./assets/images/card-img/salzburger-nockerl-img.png" alt="salzburger-nockerl Image">
+                                                <span style="background-color: #4556AC;">processed</span>
+                                            </a>
+                                        </div>
+                                        <div class="order-des">
+                                            <ul>
+                                                <li>
+                                                    <a href="#">Salzburger Nockerl</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Wedding cake decorated with donuts and wild berries</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">14.07.2018</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>         
+
+                    <div class="col-xxl-4 col-xl-4 col-lg-12 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Product Categories</h3>
+                            </div>
+                            <div class="product-chart">
+                                <div id="productCategory"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Cakes</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="cakes">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Marble Cake</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Friutcake</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Chocolate Cake</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Fat Rascal</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Financier</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Genoise</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Gingerbread</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Goose Breast</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Parkin</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Salzburger Nockerl</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Soufflé</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Merveilleux</a>
+                                        </li>
+                                    </ul>
+
+                                    <ul>
+                                        <li>
+                                            <a href="#">Streuselkuchen</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tea Loaf</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Napoleonshat</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Merveilleux</a>
+                                        </li>   
+                                        <li>
+                                            <a href="#">Magdalena</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cremeschnitte</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Cheesecake</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Bebinca</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Salzburger Nockerl</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Soufflé</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Merveilleux</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Streuselkuchen</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-12 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Tickets</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="user">
+                                    <div class="user-list">
+                                        <div class="user-img">
+                                            <a href="#">
+                                                <img src="./assets/images/user-image/p-1.png" alt="User Image">
+                                            </a>
+                                        </div>
+                                        <div class="user-detail">
+                                            <a href="#">
+                                                <p>Mayra Sibley</p>
+                                                <p>09.08.2018 - 12:45</p>
+                                            </a>
+                                        </div>
+                                    </div>
+    
+                                    <div class="user-list">
+                                        <div class="user-img">
+                                            <a href="#">
+                                                <img src="./assets/images/user-image/p-2.png" alt="User Image">
+                                            </a>
+                                        </div>
+                                        <div class="user-detail">
+                                            <a href="#">
+                                                <p>Mimi Carreira</p>
+                                                <p>05.08.2018 - 10:20</p>
+                                            </a>
+                                        </div>
+                                    </div>
+    
+                                    <div class="user-list">
+                                        <div class="user-img">
+                                            <a href="#">
+                                                <img src="./assets/images/user-image/p-3.png" alt="User Image">
+                                            </a>
+                                        </div>
+                                        <div class="user-detail">
+                                            <a href="#">
+                                                <p>Philip Nelms</p>
+                                                <p>09.08.2018 - 09:12</p>
+                                            </a>
+                                        </div>
+                                    </div>
+    
+                                    <div class="user-list">
+                                        <div class="user-img">
+                                            <a href="#">
+                                                <img src="./assets/images/user-image/p-4.png" alt="User Image">
+                                            </a>
+                                        </div>
+                                        <div class="user-detail">
+                                            <a href="#">
+                                                <p>Terese Threadgill</p>
+                                                <p>01.08.2018 - 18:20</p>
+                                            </a>
+                                        </div>
+                                    </div>
+    
+                                    <div class="user-list">
+                                        <div class="user-img">
+                                            <a href="#">
+                                                <img src="./assets/images/user-image/p-5.png" alt="User Image">
+                                            </a>
+                                        </div>
+                                        <div class="user-detail">
+                                            <a href="#">
+                                                <p>Kathryn Mengel</p>
+                                                <p>27.07.2018 - 11:45</p>
+                                            </a>
+                                        </div>
+                                    </div>
+    
+                                    <div class="user-list">
+                                        <div class="user-img">
+                                            <a href="#">
+                                                <img src="./assets/images/user-image/p-2.png" alt="User Image">
+                                            </a>
+                                        </div>
+                                        <div class="user-detail">
+                                            <a href="#">
+                                                <p>Esperanza Lodge</p>
+                                                <p>24.07.2018 - 15:00</p>
+                                            </a>
+                                        </div>
+                                    </div>
+    
+                                    <div class="user-list">
+                                        <div class="user-img">
+                                            <a href="#">
+                                                <img src="./assets/images/user-image/p-1.png" alt="User Image">
+                                            </a>
+                                        </div>
+                                        <div class="user-detail">
+                                            <a href="#">
+                                                <p>Laree Munsch</p>
+                                                <p>24.05.2018 - 11:00</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-6 col-xl-6 col-lg-12 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Calendar</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="event-calender">
+                                    <div id='calendar'></div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-6 col-xl-6 col-lg-12 col-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3>Best Sellers</h3>
+                            </div>
+                            <div class="seller-list">
+                                <table class="first">
+                                    <tr class="sales-des">
+                                        <td class="saler-name">Name</td>
+                                        <td class="sales">Sales</td>
+                                        <td class="sales-stock">Stock</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marble Cake</td>
+                                        <td>1647</td>
+                                        <td>62</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fat Rascal</td>
+                                        <td>1240</td>
+                                        <td>48</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chocolate Cake</td>
+                                        <td>1080</td>
+                                        <td>57</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Goose Breast</td>
+                                        <td>1014</td>
+                                        <td>41</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Petit Gâteau</td>
+                                        <td>985</td>
+                                        <td>23</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Salzburger Nockerl</td>
+                                        <td>962</td>
+                                        <td>34</td>
+                                    </tr>
+                                </table>
+
+                                <!--   -->
+                            </div>
+
+                            <div class="page-link">
+                                <div class="all-page">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="angle-left">
+                                                <i class="fa-solid fa-angle-left"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="first-page">
+                                                <span>1</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" class="second-page">
+                                                <span>2</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>3</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>4</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa-solid fa-angle-right"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-content">
+                        <div class="strategies">
+                            <p>ColoredStrategies 2021</p>
+                        </div>
+                        <div class="reviews">
+                            <ul>
+                                <li>
+                                    <a href="#">Review</a>
+                                </li>
+                                <li>
+                                    <a href="#">Purchase</a>
+                                </li>
+                                <li>
+                                    <a href="#">Docs</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/apexcharts.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+
+            // Theme Color Change
+            $(".wizard-setting > a").click(function(){
+                $(this).toggleClass("slide");
+                $(".theme-colors").toggleClass("left");
+            }); 
+            $(".purplemonster").click(function(){
+                var path = $(this).data('path'); // prp //
+                $("#colorChange").attr('href',path);  
+            });
+            $(".dark-purplemonster").click(function(){
+                var path = $(this).data('path');
+                $("#colorChange").attr('href',path);
+                
+            //  $("#colorChange").attr('href', './assets/css' + path + '.css'); 
+            });
+
+
+            // Header dropdowns
+
+            // language dropdown
+            $(".lan").click(function () {
+                $(".lan nav ul").toggleClass("block");
+                $(".grid nav ul").removeClass("block"); 
+                $(".notification nav ul").removeClass("block");
+                $(".profile nav ul").removeClass("block");
+                $(".lan a").toggleClass("lan-color");
+                $(".lan ul").toggleClass("white");
+            });
+            // grid-dropdown
+            $(".grid").click(function () {
+                $(".grid nav ul").toggleClass("block"); 
+                $(".lan nav ul").removeClass("block");
+                $(".lan a").removeClass("lan-color");
+                $(".notification nav ul").removeClass("block");
+                $(".profile nav ul").removeClass("block");
+            });
+            // notification-dropdown
+            $(".notification").click(function(){
+                $(".notification nav ul").toggleClass("block");
+                $(".lan nav ul").removeClass("block");
+                $(".lan a").removeClass("lan-color");
+                $(".grid nav ul").removeClass("block"); 
+                $(".profile nav ul").removeClass("block");
+            });
+            // profile dropdown
+            $(".profile").click(function () {
+                $(".profile nav ul").toggleClass("block");
+                $(".notification nav ul").removeClass("block");
+                $(".lan nav ul").removeClass("block");
+                $(".lan a").removeClass("lan-color");
+                $(".grid nav ul").removeClass("block");
+            });
+
+
+            // fullscreen btn
+            $(".fullscreen").click(function () {
+                $(".fa-expand").toggleClass("none");
+                $(".fa-minimize").toggleClass("inline");
+            });
+
+            // sidebar slide
+            $(".toggle-menu").click(function () {
+                $(".sidebar").toggleClass("close-sidebar");
+                $("footer").toggleClass("close-sidebar");
+                $(".sub").toggleClass("black");
+                $(".dashboards-dropdown").toggleClass("none");
+                $(".pages-dropdown").toggleClass("none");
+            });
+
+            //sub-menubar dropdown
+            $(".menubar > ul > li.dashboards > a").click(function () {
+                $(".dashboards-dropdown").slideDown(100);
+                $(".pages-dropdown").slideUp(10);
+                $(".apps-dropdown").slideUp(10);
+                $(".ui-dropdown").slideUp(10);
+                $(".menus-dropdown").slideUp(10);
+            });
+            $(".menubar > ul > li.pages > a").click(function () {
+                $(".pages-dropdown").slideDown(100);
+                $(".dashboards-dropdown").slideUp(10);
+                $(".apps-dropdown").slideUp(10);
+                $(".ui-dropdown").slideUp(10);
+                $(".menus-dropdown").slideUp(10);
+            });
+            $(".menubar > ul > li.apps > a").click(function () {
+                $(".apps-dropdown").slideDown(100);
+                $(".dashboards-dropdown").slideUp(10);
+                $(".pages-dropdown").slideUp(10);
+                $(".ui-dropdown").slideUp(10);
+                $(".menus-dropdown").slideUp(10);
+            });
+            $(".menubar > ul > li.ui > a").click(function () {
+                $(".ui-dropdown").slideDown(100);
+                $(".dashboards-dropdown").slideUp(10);
+                $(".pages-dropdown").slideUp(10);
+                $(".apps-dropdown").slideUp(10);
+                $(".menus-dropdown").slideUp(10);
+            });
+            $(".menubar > ul > li.menus > a").click(function () {
+                $(".menus-dropdown").slideDown(100);
+                $(".dashboards-dropdown").slideUp(10);
+                $(".pages-dropdown").slideUp(10);
+                $(".apps-dropdown").slideUp(10);
+                $(".ui-dropdown").slideUp(10);
+            });
+            $(".authorization > a").click(function(){
+                $(".authorization-subdropdown").slideToggle(300);
+                $(".authorization > a > i").toggleClass("rotate");
+            });
+            $(".product > a").click(function(){
+                $(".product-subdropdown").slideToggle(300);
+                $(".product > a > i").toggleClass("rotate");
+            });
+            $(".profile1 > a").click(function(){
+                $(".profile1-subdropdown").slideToggle(300);
+                $(".profile1 > a > i").toggleClass("rotate");
+            });
+            $(".blog > a").click(function(){
+                $(".blog-subdropdown").slideToggle(300);
+                $(".blog > a > i").toggleClass("rotate");
+            });
+            $(".miscellaneous > a").click(function(){
+                $(".miscellaneous-subdropdown").slideToggle(300);
+                $(".miscellaneous > a > i").toggleClass("rotate");
+            });
+            $(".forms > a").click(function(){
+                $(".forms-subdropdown").slideToggle(300);
+                $(".forms > a > i").toggleClass("rotate");
+            });
+            $(".components > a").click(function(){
+                $(".components-subdropdown").slideToggle(300);
+                $(".components > a > i").toggleClass("rotate");
+            });
+            $(".menus-dropdown > .menus > a").click(function(){
+                $(".menus-subdropdown").slideToggle(300);
+                $(".menus-dropdown .menus > a > i").toggleClass("rotate");
+            });
+
+
+            // menubar focus
+            $(".pages a").click(function(){
+                $(".menubar ul li.dashboards a").addClass("active");
+                $(".menubar ul li .active:after").addClass("none");
+            });
+            $(".apps a").click(function(){
+                $(".menubar ul li.dashboards a").addClass("active");
+                $(".menubar ul li .active:after").addClass("none");
+            });
+            $(".ui a").click(function(){
+                $(".menubar ul li.dashboards a").addClass("active");
+                $(".menubar ul li .active:after").addClass("none");
+            });
+            $(".menus a").click(function(){
+                $(".menubar ul li.dashboards a").addClass("active");
+                $(".menubar ul li .active:after").addClass("none");
+            });
+            $(".blank-page a").click(function(){
+                $(".menubar ul li.dashboards a").addClass("active");
+                $(".menubar ul li .active:after").addClass("none");
+            });
+            $(".docs a").click(function(){
+                $(".menubar ul li.dashboards a").addClass("active");
+                $(".menubar ul li .active:after").addClass("none");
+            });
+
+            // Menubar
+            $(".menubar ul li").click(function(){
+                $(this).addClass("active1");
+                $(".dashboards").removeClass("show");
+            });
+            $(".menubar ul li.dashboards").click(function(){
+                $(".apps").removeClass("active1");
+                $(".pages").removeClass("active1");
+                $(".ui").removeClass("active1");
+                $(".menus").removeClass("active1");
+                $(".blank-page").removeClass("active1");
+                $(".docs").removeClass("active1");
+                
+            });
+            $(".menubar ul li.pages").click(function(){
+                $(".dashboards").removeClass("active1");
+                $(".apps").removeClass("active1");
+                $(".ui").removeClass("active1");
+                $(".menus").removeClass("active1");
+                $(".blank-page").removeClass("active1");
+                $(".docs").removeClass("active1");
+            });
+            $(".menubar ul li.apps").click(function(){
+                $(".dashboards").removeClass("active1");
+                $(".pages").removeClass("active1");
+                $(".ui").removeClass("active1");
+                $(".menus").removeClass("active1");
+                $(".blank-page").removeClass("active1");
+                $(".docs").removeClass("active1");
+            });
+            $(".menubar ul li.ui").click(function(){
+                $(".dashboards").removeClass("active1");
+                $(".pages").removeClass("active1");
+                $(".apps").removeClass("active1");
+                $(".menus").removeClass("active1");
+                $(".blank-page").removeClass("active1");
+                $(".docs").removeClass("active1");
+            });
+            $(".menubar ul li.menus").click(function(){
+                $(".dashboards").removeClass("active1");
+                $(".pages").removeClass("active1");
+                $(".apps").removeClass("active1");
+                $(".ui").removeClass("active1");
+                $(".blank-page").removeClass("active1");
+                $(".docs").removeClass("active1");
+            });
+            $(".menubar ul li.blank-page").click(function(){
+                $(".dashboards").removeClass("active1");
+                $(".pages").removeClass("active1");
+                $(".apps").removeClass("active1");
+                $(".ui").removeClass("active1");
+                $(".menus").removeClass("active1");
+                $(".docs").removeClass("active1");
+            });
+            $(".menubar ul li.docs").click(function(){
+                $(".dashboards").removeClass("active1");
+                $(".pages").removeClass("active1");
+                $(".apps").removeClass("active1");
+                $(".ui").removeClass("active1");
+                $(".menus").removeClass("active1");
+                $(".blank-page").removeClass("active1");
+            });
+
+
+        });
+    </script>
+    <script src="./assets/js/index.global.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+                const calendarEl = document.getElementById('calendar')
+                const calendar = new FullCalendar.Calendar(calendarEl, {
+                    initialView: 'dayGridMonth'
+                })
+                calendar.render()
+        });
+    </script>
+    <script>
+        let fullscreen;
+        let fsEnter = document.getElementById("expand");
+        fsEnter.addEventListener("click", function (e) {
+            e.preventDefault();
+            if (!fullscreen) {
+                fullscreen = true;
+                document.documentElement.requestFullscreen();
+            } else {
+                fullscreen = false;
+                document.exitFullscreen();
+            }
+        });
+    </script>
+</body>
+
+</html>

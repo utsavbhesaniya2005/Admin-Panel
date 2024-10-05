@@ -1,0 +1,51 @@
+/* Event Calender Css */
+.event-calender .fc-toolbar-title{
+    font-size: 13px;
+    color: var(--description-color);
+    font-weight: 500;
+}
+.fc-theme-standard .fc-scrollgrid{
+    border: none !important;
+}
+.fc-scrollgrid-sync-inner{
+    padding: 15px 5px;
+}
+.fc-daygrid-day-frame{
+    padding: 0;
+}
+.fc-scrollgrid-section th{
+    border: 1px solid  #f3f3f3;
+    border-right: none;
+}
+.fc-view-harness{
+    min-height: 445px !important;
+}
+.fc-scroller{
+    overflow: hidden !important;
+}
+.fc-today-button, .fc-prev-button, .fc-next-button{
+    background-color: var(--main-color) !important;
+    opacity: 1 !important;
+    text-transform: capitalize !important;
+    padding: 5px 17px !important;
+    border-radius: 22px !important;
+    border: none !important;
+    font-weight: 600 !important;
+}
+.fc-prev-button, .fc-next-button{
+    padding: 5px 0 !important;
+    display: block !important;
+    margin-right: 4px !important;
+    height: 30px !important;
+    width: 30px !important;
+}
+.fc-daygrid-day-number{
+    color: var(--description-color);
+}
+.fc-theme-standard td{    
+    border: 1px solid #f3f3f3;
+    border-bottom: none;
+}
+.fc-theme-standard td:last-child{
+    border-right: none;
+}
